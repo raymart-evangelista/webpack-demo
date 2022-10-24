@@ -2,6 +2,8 @@ import _ from 'lodash';
 import './style.css';
 import myName from './myName';
 import Icon from './corgi-icon.png';
+import Data from './data.xml';
+import Notes from './data.csv'
 
 function component() {
   const element = document.createElement('div');
@@ -14,6 +16,9 @@ function component() {
   corgi.src = Icon;
 
   element.appendChild(corgi);
+
+  console.log(Data);
+  console.log(Notes);
 
   return element;
 }
