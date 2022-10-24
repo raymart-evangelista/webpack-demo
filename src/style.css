@@ -1,4 +1,10 @@
+@font-face {
+  font-family: AloeVera;
+  src: url('./Aloevera.ttf') format('truetype');
+}
+
 .hello {
   color: red;
+  font-family: AloVera;
   background: url('./corgi-icon.png');
 }
